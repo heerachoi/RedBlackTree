@@ -1,0 +1,39 @@
+/****************************
+* 6 possible methods
+* Insert(Key key,Val value) => "insert x y"
+* Delete(Key key) => "delete x"
+* Search(Key key) => "search x"
+* Rank(Key key) => "rank x"
+* getValByRank(int k) => "getval x"
+* getElements(int rankLow, int rankHigh) => "getelement x y"
+****************************/
+
+insert 5 1
+insert 10 2
+insert 1 3
+insert 9 4
+insert 3 5
+insert 3 6
+insert 7 7
+insert 4 8
+insert 10 9
+insert 1 10
+insert 7 11
+insert 1 12
+insert 1 13
+insert 9 14
+insert 6 15
+insert 1 16
+insert 4 17
+insert 3 18
+insert 1 19
+insert 127 20
+insert 234 21
+insert 68 22
+search 1
+rank 7
+insert 9 90
+insert 69 80
+insert 99 70
+getval 410
+rank 331
